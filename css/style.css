@@ -168,10 +168,10 @@ body {
   }
 
   .mobile-menu {
-    font-size: 40px;
+    font-size: 30px;
     background-color: var(--c-dark);
     color: var(--txt-c-light);
-    padding-top: 15px;
+    padding-top: 22px;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: 1px;
