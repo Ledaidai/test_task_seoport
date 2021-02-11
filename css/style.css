@@ -55,7 +55,6 @@ body {
 }
 
 .menu-item {
-  cursor: pointer;
   color: var(--txt-c-accent);
   font-size: 20px;
   width: 70px;
@@ -153,6 +152,24 @@ body {
 }
 
 @media (max-width: 750px) {
+  .modal {
+    background-color: var(--c-dark);
+    height: 100vh;
+  }
+
+  .modal-menu-items {
+    list-style: none;
+  }
+
+  .modal-menu-item {
+    cursor: pointer;
+    color: var(--txt-c-accent);
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: solid 1px white;
+  }
+
   .header-section {
     display: none;
   }
