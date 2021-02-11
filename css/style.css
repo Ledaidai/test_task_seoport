@@ -23,6 +23,10 @@ body {
   width: 100%;
 }
 
+.header-section-mobile {
+  display: none;
+}
+
 .nav-container {
   display: flex;
   flex-direction: row;
@@ -146,4 +150,61 @@ body {
 .block-3-name {
   color: var(--txt-c-accent);
   align-items: center;
+}
+
+@media (max-width: 750px) {
+  .header-section {
+    display: none;
+  }
+
+  .header-section-mobile {
+    display: block;
+    background-color: var(--c-light);
+  }
+
+  .nav-container-mobile {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mobile-menu {
+    font-size: 40px;
+    background-color: var(--c-dark);
+    color: var(--txt-c-light);
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 1px;
+    cursor: pointer;
+  }
+
+  .nav-logo-mobile {
+    background-color: var(--c-dark);
+  }
+
+  .nav-empty-mobile {
+    background-color: var(--c-dark);
+    width: 100%;
+    margin-left: 1px;
+  }
+
+  .main-blocks-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .block-1-mobile {
+    margin: 5px 0px;
+    width: 100%;
+  }
+
+  .block-2-mobile {
+    margin: 5px 0px;
+    width: 100%;
+  }
+
+  .block-3-mobile {
+    margin: 5px 0px;
+    width: 100%;
+  }
 }
