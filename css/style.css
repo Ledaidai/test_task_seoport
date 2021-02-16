@@ -27,6 +27,10 @@ body {
   display: none;
 }
 
+.modal {
+  display: none;
+}
+
 .nav-container {
   display: flex;
   flex-direction: row;
@@ -152,9 +156,15 @@ body {
 }
 
 @media (max-width: 750px) {
+  .menu-mobile-version {
+    display: flex;
+    flex-direction: row;
+  }
   .modal {
+    display: block;
     background-color: var(--c-dark);
     height: 100vh;
+    position: absolute;
   }
 
   .modal-menu-items {
